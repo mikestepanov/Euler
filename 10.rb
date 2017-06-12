@@ -4,3 +4,4 @@ def summation_of_primes (limit)
 end
 
 print summation_of_primes(2_000_000)
+puts

@@ -12,3 +12,4 @@ def special_pythagorean_triplet(product)
 end
 
 print special_pythagorean_triplet(1000)
+puts

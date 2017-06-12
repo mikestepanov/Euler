@@ -5,7 +5,7 @@ def quadratic_primes(a_lim, b_lim) #n^2 + |a|n + b{|b|}
 	(-a_lim..a_lim).each do |a|
 		next if a.even?
 		(1...b_lim).each do |b|
-			n = 0 
+			n = 0
 			while ((n ** 2) + a * n + b).prime?
 				n += 1
 			end
@@ -19,3 +19,4 @@ def quadratic_primes(a_lim, b_lim) #n^2 + |a|n + b{|b|}
 end
 
 print quadratic_primes(1000, 1000)
+puts

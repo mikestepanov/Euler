@@ -13,3 +13,4 @@ def names_scores(path)
 end
 
 print names_scores("txt_files/22.txt")
+puts

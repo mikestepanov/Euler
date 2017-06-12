@@ -23,3 +23,4 @@ def factors_sum(num)
 end
 
 print amicable_numbers(10000)
+puts

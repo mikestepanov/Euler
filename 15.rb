@@ -12,3 +12,4 @@ def create_pascal(num)
 end
 
 print lattice_paths(20)
+puts

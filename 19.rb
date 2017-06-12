@@ -16,12 +16,12 @@ def add_month(date)
 	year = date[1]
 	case month
 		when 1,3,5,7,8,10,12
-			@weekday = (@weekday + 3) % 7 
+			@weekday = (@weekday + 3) % 7
 		when 4,6,9,11
-			@weekday = (@weekday + 2) % 7 
+			@weekday = (@weekday + 2) % 7
 		when 2
 			if (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)
-				@weekday = (@weekday + 1) % 7 
+				@weekday = (@weekday + 1) % 7
 			end
 	end
 	month += 1
@@ -33,3 +33,4 @@ def add_month(date)
 end
 
 print counting_sundays(1901, 2000)
+puts

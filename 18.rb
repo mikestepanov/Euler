@@ -10,7 +10,7 @@ def maximum_path_sum(str)
 	arr.first.first
 end
 
-str = 
+str =
 "75
 95 64
 17 47 82
@@ -28,3 +28,4 @@ str =
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23"
 
 print maximum_path_sum(str)
+puts

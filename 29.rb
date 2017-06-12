@@ -9,3 +9,4 @@ def distinct_powers(low_lim, up_lim)
 end
 
 print distinct_powers(2, 100)
+puts

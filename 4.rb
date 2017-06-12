@@ -16,3 +16,4 @@ def largest_palindrome_product(size)
 end
 
 print largest_palindrome_product(3)
+puts

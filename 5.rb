@@ -4,7 +4,7 @@ def smallest_multiple(limit)
 	arr.each do |ii|
 		if mult % ii != 0
 			arr.each do |n|
-				if ii % n == 0		
+				if ii % n == 0
 					while ii % n == 0 && ii != n
 						ii /= n
 					end
@@ -18,3 +18,4 @@ def smallest_multiple(limit)
 end
 
 print smallest_multiple(20)
+puts

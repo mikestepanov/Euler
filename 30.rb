@@ -8,3 +8,4 @@ def digit_fifth_powers(power)
 end
 
 print digit_fifth_powers(5)
+puts

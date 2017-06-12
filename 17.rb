@@ -42,3 +42,4 @@ def under_hundred(num)
 end
 
 print number_letter_counts(1000)
+puts

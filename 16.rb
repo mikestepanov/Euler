@@ -3,3 +3,4 @@ def power_digit_sum(power)
 end
 
 print power_digit_sum(1000)
+puts

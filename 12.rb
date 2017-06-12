@@ -12,7 +12,7 @@ def highly_divisible_triangular_number(min_div)
 	end
 end
 
-#Thank you, Euclid of Alexandria. 
+#Thank you, Euclid of Alexandria.
 def prime_factorization(min_div)
 	list = []
 	min_div.prime_division.each{|arr| arr[1].times {list << arr[0]}}
@@ -32,3 +32,4 @@ def base_triangle(first)
 end
 
 print highly_divisible_triangular_number(500)
+puts

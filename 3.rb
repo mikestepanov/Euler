@@ -13,3 +13,4 @@ def largest_prime_factor(target)
 end
 
 print largest_prime_factor(600851475143)
+puts

@@ -3,3 +3,4 @@ def factorial_digit_sum(num)
 end
 
 print factorial_digit_sum(100)
+puts

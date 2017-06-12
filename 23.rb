@@ -39,6 +39,4 @@ def factors_sum(num)
 end
 
 print non_abundant_sums(28123)
-
-
-
+puts

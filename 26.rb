@@ -6,7 +6,7 @@ def reciprocal_cycles(limit)
 	(arr).each do |denom|
 		recurr = count_cycle(denom)
 		if recurr > longest
-			longest = recurr 
+			longest = recurr
 			max = denom
 		end
 	end
@@ -23,3 +23,4 @@ end
 
 
 print reciprocal_cycles(1000)
+puts

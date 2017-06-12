@@ -4,3 +4,4 @@ def nth_prime(nth)
 end
 
 print nth_prime(10001)
+puts

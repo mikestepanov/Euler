@@ -5,3 +5,4 @@ def sum_square_difference(limit)
 end
 
 print sum_square_difference(100)
+puts

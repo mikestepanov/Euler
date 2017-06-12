@@ -15,7 +15,7 @@ end
 def weave_sequence(num)
 	seq_length = 1
 	until num == 1
-		if num.odd? 
+		if num.odd?
 			num = 3 * num + 1
 		else
 			num /= 2
@@ -26,3 +26,4 @@ def weave_sequence(num)
 end
 
 print longest_collatz_sequence(1_000_000)
+puts

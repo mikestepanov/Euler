@@ -13,3 +13,4 @@ def number_spiral_diagonals(limit)
 end
 
 print number_spiral_diagonals(1001)
+puts
