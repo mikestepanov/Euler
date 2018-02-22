@@ -11,5 +11,5 @@ def maximum_path_sum(path)
 	arr.first.first
 end
 
-print maximum_path_sum("txt_files/67.txt")
+print maximum_path_sum("../txt_files/67.txt")
 puts
