@@ -1,16 +1,17 @@
 const evenFibsSum = (max) => {
-  let fibs = [1, 2];
+  let fibOne = 1;
+  let fibTwo = 2;
   let sum = 2;
   while (true) {
-    let nextFib = fibs[0] + fibs[1];
-    if (nextFib >= max) {
+    let nextFib = fibOne + fibTwo;
+    if (nextFib > max) {
       break;
     }
     if (nextFib % 2 === 0) {
       sum += nextFib;
     }
-    fibs.shift();
-    fibs.push(nextFib);
+    fibOne = fibTwo;
+    fitTwo = nextFib;
   }
   return sum;
 };
