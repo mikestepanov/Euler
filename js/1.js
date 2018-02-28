@@ -11,3 +11,7 @@ const sumMultThreeOrFive = (num) => {
 let ans = sumMultThreeOrFive(1000);
 
 console.log(ans);
+
+
+// O(1) space
+// O(n) time

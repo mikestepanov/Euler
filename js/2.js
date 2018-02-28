@@ -19,3 +19,6 @@ const evenFibsSum = (max) => {
 let ans = evenFibsSum(4000000);
 
 console.log(ans);
+
+// O(1) space
+// O(n) time

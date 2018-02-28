@@ -15,3 +15,6 @@ const largestPrimeFactor = (target) => {
 let ans = largestPrimeFactor(600851475143);
 
 console.log(ans);
+
+// O(1) space
+// O(n) time
